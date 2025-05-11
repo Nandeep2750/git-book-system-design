@@ -19,7 +19,7 @@ Here’s how you approach HLD:
 5. **Draw a Simple Diagram:**\
    A diagram helps everyone see the structure at a glance.
 
-### Real-World Example: Designing a Simple URL Shortener (like bit.ly) <a href="#real-world-example-designing-a-simple-url-shortene" id="real-world-example-designing-a-simple-url-shortene"></a>
+## Real-World Example: Designing a Simple URL Shortener (like bit.ly) <a href="#real-world-example-designing-a-simple-url-shortene" id="real-world-example-designing-a-simple-url-shortene"></a>
 
 Let’s apply HLD to a system that lets users shorten long URLs and share them.
 

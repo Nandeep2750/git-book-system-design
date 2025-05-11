@@ -16,4 +16,5 @@
 
 ## Low-Level Design (LLD)
 
+* [Introduction to Low-Level Design (LLD)](low-level-design-lld/introduction-to-low-level-design-lld.md)
 * [Low-Level Design (LLD): Step-by-Step Guide](low-level-design-lld/low-level-design-lld-step-by-step-guide.md)
