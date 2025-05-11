@@ -10,3 +10,4 @@
 ## High-Level Design (HLD)
 
 * [Introduction to High-Level Design (HLD)](high-level-design-hld/introduction-to-high-level-design-hld.md)
+* [High-Level Design (HLD): Step-by-Step Guide](high-level-design-hld/high-level-design-hld-step-by-step-guide.md)
