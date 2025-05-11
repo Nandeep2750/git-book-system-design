@@ -59,8 +59,8 @@ text[Client]
 
 1. User visits the short URL (`GET /{short_code}`).
 2. Application Server checks the Cache for the mapping.
-   * If not found, queries the Database.
-   * Updates Cache if needed.
+   * If not found, it queries the Database.
+   * Updates the Cache if needed.
 3. Redirects the user to the original long URL.
 4. (Optional) Sends event to Analytics Service.
 
@@ -68,7 +68,7 @@ text[Client]
 
 ### **Short Code Generation**
 
-* **Hashing:** Generate a hash (e.g., MD5/SHA) of the long URL, encode part of it as Base62 for a short string[1](https://blog.algomaster.io/p/design-a-url-shortener)[7](https://www.designgurus.io/blog/url-shortening).
+* **Hashing:** Generate a hash (e.g., MD5/SHA) of the long URL, encode part of it as Base62 for a short string.
 * **Counter:** Use a global/incrementing counter, encoded in Base62.
 * **Random String/UUID:** Generate a random or unique code, check for collisions.
 
@@ -94,7 +94,7 @@ text[Client]
 
 ### **Analytics (Optional)**
 
-* Track clicks, referrers, geolocation, etc.[5](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly).
+* Track clicks, referrers, geolocation, etc.
 
 ## 6. **API Endpoints** <a href="#undefined" id="undefined"></a>
 
