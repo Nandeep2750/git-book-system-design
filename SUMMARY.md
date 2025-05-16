@@ -19,3 +19,4 @@
 * [Introduction to Low-Level Design (LLD)](low-level-design-lld/introduction-to-low-level-design-lld.md)
 * [Low-Level Design (LLD): Step-by-Step Guide](low-level-design-lld/low-level-design-lld-step-by-step-guide.md)
 * [LLD Example: URL Shortener (TypeScript)](low-level-design-lld/lld-example-url-shortener-typescript.md)
+* [LLD Example: Chat Application](low-level-design-lld/lld-example-chat-application.md)
