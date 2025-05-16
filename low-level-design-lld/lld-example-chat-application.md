@@ -82,7 +82,7 @@ Building a real-time chat application like WhatsApp, Slack, or Messenger require
 
 ## 4. Method Signatures (TypeScript)
 
-```
+```typescript
 // User
 class User {
   constructor(
