@@ -1,5 +1,11 @@
 # HLD Example: Chat Application
 
+Ever wondered how apps like WhatsApp, Slack, or Messenger deliver real-time chat to millions of users across the globe? Behind the scenes, a chat application requires a robust, scalable, and low-latency system design that can handle everything from instant messaging and media sharing to presence detection and notifications.
+
+In this section, we’ll walk through the **High-Level Design (HLD)** for a modern chat application. You’ll learn how to break down requirements, design the core components, and make key architectural decisions that power real-time messaging at scale.
+
+***
+
 ## 1. **Requirements** <a href="#undefined" id="undefined"></a>
 
 **Functional:**

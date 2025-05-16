@@ -1,5 +1,21 @@
 # HLD Example: URL Shortener
 
+Have you ever wondered how services like **bit.ly** or **TinyURL** can take a long, complex web address and instantly turn it into a short, shareable link?\
+While the user experience is simple, the underlying system must be **highly available**, **blazingly fast**, and **robust enough to handle millions of requests every day**.
+
+In this section, we’ll break down the **High-Level Design (HLD)** of a modern URL shortener. We’ll explore how to transform a basic idea-converting long URLs into short ones, into a scalable, reliable, and production-ready architecture. You’ll see how core system design concepts like load balancing, caching, database sharding, and collision-free code generation come together to power a service used by millions.
+
+By the end of this example, you’ll understand:
+
+* The essential requirements and challenges of building a URL shortener.
+* The main components and their roles in the system.
+* How data flows from user requests to database storage and back.
+* Key design decisions that ensure performance, reliability, and scalability.
+
+Let’s dive in and see how a real-world URL shortener is designed from the ground up!
+
+***
+
 ## 1. **Requirements** <a href="#undefined" id="undefined"></a>
 
 **Functional:**
