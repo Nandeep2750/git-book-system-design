@@ -2,6 +2,8 @@
 
 Before you start designing any system, you need to clearly understand what the system is supposed to do and what qualities it should have. This process is called **gathering and analysing requirements**. Here’s how you can do it:
 
+## Steps for Gathering and Analysing Requirements
+
 ### 1. Talk to Stakeholders
 
 **Stakeholders** are the people who care about or will use the system. This could be users, clients, managers, or other teams.

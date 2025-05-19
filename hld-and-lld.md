@@ -17,14 +17,14 @@ High-Level Design is like looking at a map of a city before you start building h
 * How do these components talk to each other?
 * What technologies or frameworks will we use?
 
-### **Key Features of HLD:**
+### **Key Features of HLD**
 
 * Focuses on overall system architecture and major modules.
 * Uses diagrams to show how components interact (e.g., network diagrams, architecture diagrams).
 * Helps everyone (developers, managers, clients) understand the system at a glance.
 * Does not go into coding or detailed logic-just the structure.
 
-### **Example:**
+### **Example**
 
 Imagine designing an online shopping website.
 
@@ -34,7 +34,7 @@ Imagine designing an online shopping website.
   * A payment gateway for transactions
   * How these parts connect (e.g., web server talks to the database, payment service talks to the bank API).
 
-### **Benefits:**
+### **Benefits**
 
 * Reduces risk by spotting problems early.
 * Improves communication among team members.
@@ -50,14 +50,14 @@ Low-Level Design is like creating the blueprints for each house in the city. It 
 * What will the database tables look like?
 * How will we handle errors or edge cases?
 
-### **Key Features of LLD:**
+### **Key Features of LLD**
 
 * Focuses on the internal logic of each component.
 * Includes class diagrams, data structures, algorithms, and database schemas.
 * Provides step-by-step plans for developers to follow during coding.
 * Ensures all requirements are met with precise technical details.
 
-### **Example:**
+### **Example**
 
 Continuing the online shopping website:
 
@@ -82,6 +82,6 @@ Continuing the online shopping website:
 * **LLD** dives into the details: how each part is built and how it works internally.
 * Both are essential- HLD sets the vision, and LLD makes it real.
 
-### **Next Steps:**
+### **Next Steps**
 
 Now that you know the difference, you’re ready to explore how to create HLDs and LLDs for real-world systems, starting with functional and non-functional requirements!

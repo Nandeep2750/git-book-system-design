@@ -5,7 +5,7 @@ Before jumping into designing the system’s architecture or writing code, it’
 Think of it like building a house: before you start construction, you need to decide what rooms and spaces the house should have (like bedrooms, kitchen, and bathrooms), and also what kind of living experience you want (should it be well-lit, energy efficient, secure, or easy to maintain). Similarly, in system design, you must know:
 
 * **What features or functions the system should have** (the rooms and spaces in the house)
-* **What qualities or standards the system should meet** (the comfort, safety, and efficiency of the house)
+* **What qualities or standards should the system meet** (the comfort, safety, and efficiency of the house)
 
 These are called **functional** and **non-functional requirements**.
 
@@ -34,18 +34,18 @@ Non-functional requirements describe the qualities and constraints of the system
 
 These requirements ensure your system is not just functional but also fast, reliable, and secure.
 
+## Quick Summary
+
+| Type           | Focus                        | Example                                      |
+| -------------- | ---------------------------- | -------------------------------------------- |
+| Functional     | What the system does         | User can reset password via email link.      |
+| Non-Functional | How well the system performs | System responds to requests within 1 second. |
+
 ### Why Both Matter
 
 * **Functional requirements** make your system useful.
 * **Non-functional requirements** make your system good to use.
 
 Skipping either can lead to problems: a system might have all features but be too slow or crash often, or it might be fast but lack important functions.
-
-### Quick Summary
-
-| Type           | Focus                        | Example                                      |
-| -------------- | ---------------------------- | -------------------------------------------- |
-| Functional     | What the system does         | User can reset password via email link.      |
-| Non-Functional | How well the system performs | System responds to requests within 1 second. |
 
 With a clear understanding of these requirements, you’re ready to start designing systems that not only work but work well. Next, we’ll explore how to identify and gather these requirements for any project.
