@@ -6,7 +6,7 @@ Before you start designing any system, you need to clearly understand what the s
 
 ### 1. Talk to Stakeholders
 
-**Stakeholders** are the people who care about or will use the system. This could be users, clients, managers, or other teams.
+**Stakeholders** are individuals who care about or will utilise the system. This could be users, clients, managers, or other teams.
 
 * **Ask questions:** What problems are they trying to solve? What do they expect from the system?
 * **Listen carefully:** Sometimes, what people say they want isn’t exactly what they need. Try to understand the real problem.
@@ -19,7 +19,7 @@ Before you start designing any system, you need to clearly understand what the s
 
 ### 2. Write User Stories or Use Cases
 
-A **user story** is a simple description of something a user wants to do with the system.
+A **user story** is a concise description of what a user wants to accomplish with the system.
 
 **Format:**\
 “As a \[type of user], I want to \[do something] so that \[I get this benefit].”
@@ -72,12 +72,12 @@ As you design and build, requirements might change. Keep your list updated and c
 
 ### Quick Checklist <a href="#quick-checklist" id="quick-checklist"></a>
 
-* [ ] &#x20;Talked to all stakeholders
-* [ ] &#x20;Wrote user stories/use cases
-* [ ] &#x20;Listed all functional requirements
-* [ ] &#x20;Listed all non-functional requirements
-* [ ] &#x20;Noted constraints and assumptions
-* [ ] &#x20;Reviewed and confirmed with everyone
+* [x] &#x20;Talked to all stakeholders
+* [x] &#x20;Wrote user stories/use cases
+* [x] &#x20;Listed all functional requirements
+* [x] &#x20;Listed all non-functional requirements
+* [x] &#x20;Noted constraints and assumptions
+* [x] &#x20;Reviewed and confirmed with everyone
 
 ### **Summary:**
 

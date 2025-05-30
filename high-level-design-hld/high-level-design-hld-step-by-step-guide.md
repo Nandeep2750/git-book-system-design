@@ -5,8 +5,8 @@
 **Key Concepts:**
 
 * **Serverless vs. Serverful:**
-  * _Serverless_: Cloud provider manages servers, scaling, and maintenance. Pay only for what you use. Good for unpredictable workloads and rapid scaling.
-  * _Serverful_: You manage and customise your servers. Offers more control and can be optimised for performance, but requires expertise and is harder to scale.
+  * _**Serverless**_**:** Cloud provider manages servers, scaling, and maintenance. Pay only for what you use. Good for unpredictable workloads and rapid scaling.
+  * _**Serverful**_**:** You manage and customise your servers. Offers more control and can be optimised for performance, but requires expertise and is harder to scale.
 * **Horizontal vs. Vertical Scaling:**
   * _Horizontal_: Add more machines (scale out).
   * _Vertical_: Add more resources (CPU/RAM) to a single machine (scale up).
