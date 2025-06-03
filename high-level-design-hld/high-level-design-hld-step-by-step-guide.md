@@ -7,7 +7,7 @@
 * [**Serverless vs. Serverful:**](../concepts/serverless-vs.-serverful.md)
   * **Serverless:** Cloud provider manages servers, scaling, and maintenance. Pay only for what you use. Good for unpredictable workloads and rapid scaling.
   * **Serverful:** You manage and customise your servers. Offers more control and can be optimised for performance, but requires expertise and is harder to scale.
-* **Horizontal vs. Vertical Scaling:**
+* [**Horizontal vs. Vertical Scaling:**](../concepts/horizontal-vs.-vertical-scaling.md)
   * **Horizontal:** Add more machines (scale out).
   * **Vertical:** Add more resources (CPU/RAM) to a single machine (scale up).
 * **Threads and Processes:**
@@ -16,9 +16,9 @@
 * **Pages:**
   * Memory management units in operating systems are part of virtual memory.
 * **How the Internet Works:**
-  * DNS, HTTP(S), routing, request-response cycle6[9](https://dev.to/ashevelyov/the-step-by-step-journey-of-a-network-request-1d10)11.
+  * DNS, HTTP(S), routing, request-response cycle.
 
-**What does it matter:**\
+**What does it matter?**\
 Understanding these basics is crucial for selecting the right architecture, ensuring scalability, and developing systems that are both reliable and efficient.
 
 **What you could add:**
@@ -40,7 +40,7 @@ Understanding these basics is crucial for selecting the right architecture, ensu
 * **Partitioning & Sharding:**
   * Splitting data for scalability.
 
-**What does it matter:**\
+**What does it matter?**\
 The right database choice affects scalability, flexibility, and performance.
 
 **What you could add:**
@@ -62,7 +62,7 @@ The right database choice affects scalability, flexibility, and performance.
 * **Durability:**
   * Data survives failures.
 
-**What does it matter:**\
+**What does it matter?**\
 Balancing consistency and availability is crucial for user experience and data integrity.
 
 **What you could add:**
@@ -82,7 +82,7 @@ Balancing consistency and availability is crucial for user experience and data i
 * **CDNs:**
   * Distribute static content closer to users.
 
-**What does it matter:**\
+**What does it matter?**\
 Caching improves speed, reduces database load, and enhances user experience.
 
 **What you could add:**
@@ -102,7 +102,7 @@ Caching improves speed, reduces database load, and enhances user experience.
 * **WebSockets, WebRTC:**
   * Real-time, persistent connections.
 
-**What does it matter:**\
+**What does it matter?**\
 Choosing the right protocol impacts performance, reliability, and real-time capabilities.
 
 **What you could add:**
@@ -123,7 +123,7 @@ Choosing the right protocol impacts performance, reliability, and real-time capa
 * **Rate Limiting:**
   * Prevents abuse.
 
-**What does it matter:**\
+**What does it matter?**\
 Load balancing ensures high availability and reliability, preventing server overload.
 
 **What you could add:**
@@ -140,7 +140,7 @@ Load balancing ensures high availability and reliability, preventing server over
 * **Publisher-Subscriber Model:**
   * Multiple consumers for the same message/event.
 
-**What does it matter:**\
+**What does it matter?**\
 Message queues help handle spikes in traffic and enable scalable, decoupled architectures.
 
 **What you could add:**
@@ -163,7 +163,7 @@ Message queues help handle spikes in traffic and enable scalable, decoupled arch
 * **Migrating to Microservices:**
   * When and how to split a monolith.
 
-**What does it matter:**\
+**What does it matter?**\
 Choosing the right architecture affects scalability, maintainability, and team productivity.
 
 **What you could add:**
@@ -180,7 +180,7 @@ Choosing the right architecture affects scalability, maintainability, and team p
 * **Anomaly Detection:**
   * Spot unusual patterns or failures early.
 
-**What does it matter:**\
+**What does it matter?**\
 Monitoring and logging help detect, diagnose, and resolve issues quickly, ensuring system reliability.
 
 **What you could add:**
@@ -201,7 +201,7 @@ Monitoring and logging help detect, diagnose, and resolve issues quickly, ensuri
 * **Encryption:**
   * Protect data at rest and in transit.
 
-**What does it matter:**\
+**What does it matter?**\
 Security protects user data, builds trust, and is often required by law or regulations.
 
 **What you could add:**
@@ -225,7 +225,7 @@ Security protects user data, builds trust, and is often required by law or regul
 * **Accuracy vs. Latency:**
   * Instant results vs. more accurate data.
 
-**What does it matter:**\
+**What does it matter?**\
 Understanding tradeoffs helps you justify your design decisions and tailor systems to real-world needs.
 
 **What you could add:**
