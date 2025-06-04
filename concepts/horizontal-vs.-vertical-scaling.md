@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Scalability is a key part of building systems that can grow and perform well under increased demand. There are two primary ways to scale: **➡️ Horizontal Scaling** and **⬆️ Vertical Scaling**.
+Scalability is a crucial aspect of building systems that can scale and perform effectively under increased demand. There are two primary ways to scale: **➡️ Horizontal Scaling** and **⬆️ Vertical Scaling**.
 
 Choosing the right approach depends on several factors, including your app’s 🧱 architecture, 📈 traffic patterns, ⚙️ resource needs, and 💰 budget.
 
@@ -22,7 +22,7 @@ Horizontal scaling is similar to building more lanes on a road to handle extra c
 
 ### Benefits of Horizontal Scaling
 
-* ✅ **Better Load Handling**: Horizontal scaling spreads the work across many servers instead of relying on just one. This helps each server handle less pressure, making the system faster, more efficient, and less likely to slow down or crash.
+* ✅ **Better Load Handling**: Horizontal scaling spreads the work across many servers instead of relying on just one. This helps each server handle less pressure, making the system faster, more efficient, and less likely to experience slowdowns or crashes.
 * 📈 **Easy to Grow When Needed**: If your app or website gets more traffic, you can just add more servers to keep up. This makes it easy to grow your system whenever needed, without spending a lot of money upfront.
 * 🛡️ **More Reliable and Fault-Tolerant**: Since the system runs on multiple servers, if one server fails, others can take over. This means your service can keep running smoothly even when something goes wrong, reducing downtime and keeping users happy.
 
@@ -74,6 +74,8 @@ Vertical scaling is like making a single bridge bigger and stronger so it can ca
 ## Comparative Overview
 
 <table><thead><tr><th width="212">Aspect</th><th>Horizontal Scaling (Scaling Out)</th><th>Vertical Scaling (Scaling Up)</th></tr></thead><tbody><tr><td>📚 <strong>Definition</strong></td><td>Adding more servers or instances to share the load</td><td>Upgrading existing servers by adding CPU, RAM, storage</td></tr><tr><td>🌐 <strong>System Expansion</strong></td><td>Expands by adding more machines</td><td>Expands by upgrading existing machines</td></tr><tr><td>🔧 <strong>Ease of Implementation</strong></td><td>More complex; needs load balancing &#x26; architectural changes</td><td>Simpler; may involve downtime during upgrades</td></tr><tr><td>🔄 <strong>Upgrade Process</strong></td><td>Easier; just add more servers</td><td>Harder; often requires system downtime</td></tr><tr><td>💰 <strong>Cost Implication</strong></td><td>Higher upfront costs due to extra hardware &#x26; infrastructure</td><td>Usually cheaper initially; costly for big hardware upgrades</td></tr><tr><td>⏱️ <strong>Time to Scale</strong></td><td>Takes longer due to complexity</td><td>Faster, since it upgrades existing systems</td></tr><tr><td>🛡️ <strong>Fault Tolerance</strong></td><td>High; failure of one server doesn’t affect others</td><td>Lower; single server failure can cause downtime</td></tr><tr><td>🚀 <strong>Scalability Limit</strong></td><td>Almost unlimited; keep adding servers</td><td>Limited by max capacity of one machine</td></tr><tr><td>📊 <strong>Traffic Patterns</strong></td><td>Best for fluctuating or spiking traffic</td><td>Best for stable, consistent high demand</td></tr><tr><td>⚙️ <strong>Resource Efficiency</strong></td><td>Adds resources by increasing number of servers</td><td>Boosts capacity of a single powerful server</td></tr><tr><td>🏗️ <strong>Application Architecture</strong></td><td>Works well with distributed, multi-server apps</td><td>Suited for single-server, legacy, or resource-heavy apps</td></tr><tr><td>⏳ <strong>Downtime Tolerance</strong></td><td>Minimal downtime during scaling</td><td>May require downtime during upgrades</td></tr><tr><td>☁️ <strong>Cloud Integration</strong></td><td>Great fit for cloud environments with elastic resources</td><td>Simpler for single robust cloud servers</td></tr><tr><td>📦 <strong>Workload Distribution</strong></td><td>Excels at spreading workload across multiple servers</td><td>Handles workload on one powerful server</td></tr><tr><td>🗄️ <strong>Examples of Databases</strong></td><td>Cassandra, MongoDB, Google Cloud Spanner</td><td>MySQL, Amazon RDS</td></tr></tbody></table>
+
+{% embed url="https://youtu.be/dvRFHG2-uYs?si=_dfVQqh8xo5MwSm5" %}
 
 ## Choosing the Right Strategy
 
