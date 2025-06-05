@@ -10,9 +10,10 @@
 * [**Horizontal vs. Vertical Scaling:**](../concepts/horizontal-vs.-vertical-scaling.md)
   * **Horizontal:** Add more machines (scale out).
   * **Vertical:** Add more resources (CPU/RAM) to a single machine (scale up).
-* **Threads and Processes:**
-  * **Threads:** Lightweight units of execution within a process, enabling multitasking.
+* [**Programs, Processes and Threads:**](../concepts/programs-processes-and-threads.md)
+  * **Programs:** A set of instructions written in code, waiting to be executed by the system.
   * **Processes:** Independent programs with their own memory space.
+  * **Threads:** Lightweight units of execution within a process, enabling multitasking.
 * **Pages:**
   * Memory management units in operating systems are part of virtual memory.
 * **How the Internet Works:**
