@@ -118,6 +118,8 @@ That’s why threads are sometimes called **“lightweight processes.”** They�
 
 Because threads share memory, **one faulty thread** can mess things up for the entire process. If one thread crashes or gets stuck, the whole app might freeze or behave unexpectedly. It's a trade-off between speed and stability.
 
+{% embed url="https://youtu.be/4rLW7zg21gI?si=TMIwgTQmctd62Zfb" %}
+
 ***
 
 ## 🔍 **Computer Process vs Thread: Key Differences Explained Simply**
@@ -148,6 +150,8 @@ Here’s how your computer runs your apps — step by step:
 * **Threads:** Mini-tasks within a process — fast, efficient, and great for multitasking, but they need to play well together.
 
 Let’s explore **how threads supercharge performance** in modern applications through **parallelism and concurrency!**
+
+{% embed url="https://youtu.be/1myWEH8IGt4?si=DElTxTRknJ-JdPz_" %}
 
 ***
 
