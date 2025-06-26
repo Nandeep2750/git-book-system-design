@@ -17,7 +17,7 @@
 * **Pages:**
   * Memory management units in operating systems are part of virtual memory.
 * **How the Internet Works:**
-  * DNS, HTTP(S), routing, request-response cycle.
+  * [DNS](../concepts/dns-http-s-routing-and-the-request-response-cycle.md#dns-domain-name-system), [HTTP(S)](../concepts/dns-http-s-routing-and-the-request-response-cycle.md#http-and-https), [routing](../concepts/dns-http-s-routing-and-the-request-response-cycle.md#routing), [request-response cycle](../concepts/dns-http-s-routing-and-the-request-response-cycle.md#the-request-response-cycle).
 
 **What does it matter?**\
 Understanding these basics is crucial for selecting the right architecture, ensuring scalability, and developing systems that are both reliable and efficient.
